@@ -109,3 +109,18 @@ xattr -cr /Applications/MotrixNext.app  # remove quarantine (app is unsigned)
 ```shell
 brew install maccy
 ```
+
+### 15. Krita - 跨平台基于KDE和Qt框架的从零开始创建数字艺术文件的端到端解决方案。
+
+- [官方地址](https://github.com/KDE/krita)
+- [下载地址](https://krita.org/zh-cn/post-download/)
+
+GIMP用于位图处理,可以替代Adobe的Photoshop,或者当作备胎.
+
+Inkscape用于矢量图处理,可以当作Adobe的Illustrator,或者当作备胎.
+
+Pencil2D用于创作动画,可以当作Adobe的Animate,或者当作备胎.
+
+Blender3D的Grease Pencil也可以用于创作动画,适合熟悉Blender3D的用户使用.
+
+Krita位图,矢量图,动画都能做,但其最大的亮点在于侧重于绘画创作,画师可以把Krita当成自己的核心装备,上面那几个可以当作辅助装备.
