@@ -4,6 +4,10 @@
 
 - [官方地址](https://github.com/wickenico/WailBrew)
 - [下载地址](https://github.com/wickenico/WailBrew/releases)
+- 通过Homebrew安装
+```shell
+brew install --cask wailbrew
+```
 
 ### 2. Ghostty - 👻 跨平台的终端模拟器，采用平台原生的 UI 和 GPU 加速
 
@@ -14,6 +18,10 @@
 
 - [官方地址](https://github.com/TermoraDev/termora)
 - [下载地址](https://github.com/TermoraDev/termora/releases)
+- 通过Homebrew安装
+```shell
+brew install --cask termora
+```
 
 ### 4. IINA - macOS 的现代视频播放器
 
@@ -24,11 +32,19 @@
 
 - [官方地址](https://github.com/amir1376/ab-download-manager)
 - [下载地址](https://github.com/amir1376/ab-download-manager/releases)
+- 通过Homebrew安装
+```shell
+brew tap amir1376/tap && brew install --cask ab-download-manager
+```
 
 ### 6. Mole - 🐹 深度清洁和优化你的Mac
 
 - [官方地址](https://github.com/tw93/Mole)
 - [下载地址](https://github.com/tw93/Mole/releases)
+- 通过Homebrew安装
+```shell
+brew install mole
+```
 
 ### 7. MonitorControl - 🖥 像控制原生苹果显示器一样，控制Mac上的屏幕亮度和音量
 
@@ -36,11 +52,19 @@
 
 - [官方地址](https://github.com/MonitorControl/MonitorControl)
 - [下载地址](https://github.com/MonitorControl/MonitorControl/releases)
+- 通过Homebrew安装
+```shell
+brew install --cask monitorcontrol
+```
 
 ### 8. stats - macOS系统监控器在菜单栏中
 
 - [官方地址](https://github.com/exelban/stats)
 - [下载地址](https://github.com/exelban/stats/releases)
+- 通过Homebrew安装
+```shell
+brew install stats
+```
 
 ### 9. OBS Studio - 免费开源的直播和屏幕录制软件
 
@@ -51,23 +75,37 @@
 
 - [官方地址](https://github.com/lihaoyun6/QuickRecorder)
 - [下载地址](https://github.com/lihaoyun6/QuickRecorder/releases)
+- 通过Homebrew安装
+```shell
+brew install lihaoyun6/tap/quickrecorder
+```
 
 ### 11. 懂得都懂
 
 - [官方地址](https://github.com/clash-verge-rev/clash-verge-rev)
 - [下载地址](https://github.com/clash-verge-rev/clash-verge-rev/releases)
 
-### 12. Motrix - 一个功能齐全的下载管理器 (已不再更新)
-
-- [官方地址](https://github.com/agalwood/Motrix)
-- [下载地址](https://github.com/agalwood/Motrix/releases)
-
-### 13. Motrix-Next - 一个功能齐全的下载管理器——从零重建
+### 12. Motrix-Next - 一个功能齐全的下载管理器——从零重建
 
 - [官方地址](https://github.com/AnInsomniacy/motrix-next)
 - [下载地址](https://github.com/AnInsomniacy/motrix-next/releases)
+- 通过Homebrew安装
+```shell
+brew tap AnInsomniacy/motrix-next
+brew install --cask motrix-next
+xattr -cr /Applications/MotrixNext.app  # remove quarantine (app is unsigned)
+```
 
-### 14. Aseprite - 跨平台的动画精灵编辑器和像素艺术工具
+### 13. Aseprite - 跨平台的动画精灵编辑器和像素艺术工具
 
 - [官方地址](https://github.com/aseprite/aseprite)
 - [下载地址](https://github.com/aseprite/aseprite/releases)
+
+### 14. Maccy - macOS 轻量级剪贴板管理器
+
+- [官方地址](https://github.com/p0deje/Maccy)
+- [下载地址](https://github.com/p0deje/Maccy/releases)
+- 通过Homebrew安装
+```shell
+brew install maccy
+```
