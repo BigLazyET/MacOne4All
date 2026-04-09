@@ -1,14 +1,20 @@
 参考文档：[brew 安装完全指南：多系统适配与国内源配置技巧](https://github.com/RivTian/blog-articles/issues/29)
 
 ### 一、安装
-国内镜像安装（推荐）
+从 Homebrew 最新的 GitHub 发行版下载（推荐）
 
-使用中科大镜像源的自动安装脚本：
+安装好之后执行：
 ```shell
-/bin/bash -c "$(curl -fsSL https://gitee.com/ineo6/homebrew-install/raw/master/install.sh)"
+echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> ~/.zprofile
+echo 'export HOMEBREW_AUTO_UPDATE_SECS=604800' >> ~/.zprofile
+source ~/.zprofile
 ```
 
-### 二、配置镜像源
+把上面这行写进去之后：
+- 每次打开终端
+- Homebrew 的 PATH 都会自动配置好
+
+### 二、配置镜像源（如果慢可选择配置）
 
 #### 1. 中科大镜像配置
 
