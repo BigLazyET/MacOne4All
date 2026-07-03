@@ -89,6 +89,13 @@ brew install lihaoyun6/tap/quickrecorder
 
 - [官方地址](https://github.com/AnInsomniacy/motrix-next)
 - [下载地址](https://github.com/AnInsomniacy/motrix-next/releases)
+```shell
+# 如果遇到提示已经损坏无法打开的情况
+xattr /Applications/MotrixNext.app 
+
+# 观察上面的命令结果中是否有com.apple.quarantine，如果有说明被系统隔离了，那就移除它
+xattr -dr com.apple.quarantine /Applications/MotrixNext.app
+```
 - 通过Homebrew安装
 ```shell
 brew tap AnInsomniacy/motrix-next
@@ -124,3 +131,10 @@ Pencil2D用于创作动画,可以当作Adobe的Animate,或者当作备胎.
 Blender3D的Grease Pencil也可以用于创作动画,适合熟悉Blender3D的用户使用.
 
 Krita位图,矢量图,动画都能做,但其最大的亮点在于侧重于绘画创作,画师可以把Krita当成自己的核心装备,上面那几个可以当作辅助装备.
+
+### 16. Aria2 - 下载神器
+- [官方地址](https://aria2.org/)
+- 通过Homebrew安装
+```shell
+brew install aria2
+```
